@@ -1,11 +1,11 @@
-s1=input()
-s1=int(s1)
-a1=[]
-for i in range(0,s1):
+s2=input()
+s2=int(s1)
+a2=[]
+for i in range(0,s2):
     n=input()
-    a1.append(n)
+    a2.append(n)
 s=[]
-for i in zip(*a1):
+for i in zip(*a2):
     if i.count(i[0])==len(i):
         s.append(i[0])
     else:
